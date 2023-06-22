@@ -1,5 +1,4 @@
 ﻿je_objective_expand_goods_production = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/economic_dominance.dds"
 
 	complete = {
@@ -56,7 +55,6 @@
 }
 
 je_refining_goods = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/economic_dominance.dds"
 
 	immediate = {	
@@ -83,7 +81,6 @@ je_refining_goods = {
 }
 
 je_specialized_goods = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/economic_dominance.dds"
 
 	immediate = {	
@@ -110,7 +107,6 @@ je_specialized_goods = {
 }
 
 je_expanding_the_market = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/economic_dominance.dds"
 
 	immediate = {	
@@ -128,7 +124,6 @@ je_expanding_the_market = {
 }
 
 je_strong_market = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/economic_dominance.dds"
 	active_update_frequency = 1
 
@@ -159,7 +154,6 @@ je_strong_market = {
 }
 
 je_specialized_inputs = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/economic_dominance.dds"
 
 	immediate = {	
@@ -225,7 +219,6 @@ je_specialized_inputs = {
 }
 
 je_utilizing_our_strength = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/economic_dominance.dds"
 
 	immediate = {
@@ -247,7 +240,6 @@ je_utilizing_our_strength = {
 }
 
 je_exporting_profits = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/economic_dominance.dds"
 
 	immediate = {
@@ -274,7 +266,6 @@ je_exporting_profits = {
 }
 
 je_raise_exports_value = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/economic_dominance.dds"
 
 	immediate = {
@@ -296,7 +287,6 @@ je_raise_exports_value = {
 }
 
 je_lower_production_costs = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/economic_dominance.dds"
 
 	immediate = {

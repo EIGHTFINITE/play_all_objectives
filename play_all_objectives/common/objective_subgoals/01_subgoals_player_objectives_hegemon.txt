@@ -54,7 +54,6 @@ sg_african_colonies = {
 	is_repeatable = no
 
 	unlocking_subgoals_all = {
-		sg_colonization_laws
 	}
 
 	trigger = {
@@ -73,7 +72,6 @@ sg_expand_navy_and_army = {
 	is_repeatable = no
 
 	unlocking_subgoals_all = {
-		sg_african_colonies
 	}
 
 	trigger = {
@@ -92,7 +90,6 @@ sg_form_alliance = {
 	is_repeatable = no
 
 	unlocking_subgoals_all = {
-		sg_colonization_laws
 	}
 
 	trigger = {
@@ -111,7 +108,6 @@ sg_take_subject = {
 	is_repeatable = no
 
 	unlocking_subgoals_all = {
-		sg_colonization_laws
 	}
 
 	trigger = {
@@ -130,7 +126,6 @@ sg_increase_technology = {
 	is_repeatable = no
 
 	unlocking_subgoals_all = {
-		sg_expand_navy_and_army
 	}
 
 	trigger = {
@@ -149,7 +144,6 @@ sg_greatest_power = {
 	is_repeatable = no
 
 	unlocking_subgoals_all = {
-		sg_colonization_laws
 	}
 
 	trigger = {
@@ -169,7 +163,6 @@ sg_greater_power = {
 	is_repeatable = no
 
 	unlocking_subgoals_all = {
-		sg_colonization_laws
 	}
 
 	trigger = {
@@ -189,7 +182,6 @@ sg_great_power = {
 	is_repeatable = no
 
 	unlocking_subgoals_all = {
-		sg_colonization_laws
 	}
 
 	trigger = {
@@ -209,7 +201,6 @@ sg_unrecognized_power = {
 	is_repeatable = no
 
 	unlocking_subgoals_all = {
-		sg_colonization_laws
 	}
 
 	trigger = {
@@ -229,9 +220,6 @@ sg_the_hegemon = {
 	is_repeatable = no
 
 	unlocking_subgoals_any = {
-		sg_great_power
-		sg_greater_power
-		sg_greatest_power
 	}
 
 	trigger = {

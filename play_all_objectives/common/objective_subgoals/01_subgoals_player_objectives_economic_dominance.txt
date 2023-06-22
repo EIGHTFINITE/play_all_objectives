@@ -55,7 +55,6 @@ sg_refining_goods = {
 	is_repeatable = no
 
 	unlocking_subgoals_all = {
-		sg_expand_goods_production
 	}
 
 	trigger = {
@@ -74,7 +73,6 @@ sg_specialized_goods = {
 	is_repeatable = no
 
 	unlocking_subgoals_all = {
-		sg_refining_goods
 	}
 
 	trigger = { 
@@ -93,7 +91,6 @@ sg_expanding_the_market = {
 	is_repeatable = no
 
 	unlocking_subgoals_all = {
-		sg_specialized_goods
 	}
 
 	trigger = {
@@ -112,13 +109,9 @@ sg_strong_market = {
 	is_repeatable = no
 
 	unlocking_subgoals_all = {
-		sg_expanding_the_market
-		sg_lower_production_costs
 	}
 
 	unlocking_subgoals_any = {
-		sg_raise_exports_value
-		sg_utilizing_our_strength
 	}
 
 	trigger = {
@@ -137,7 +130,6 @@ sg_specialized_inputs = {
 	is_repeatable = no
 
 	unlocking_subgoals_all = {
-		sg_specialized_goods
 	}
 
 	trigger = {
@@ -157,7 +149,6 @@ sg_utilizing_our_strength = {
 	is_repeatable = no
 
 	unlocking_subgoals_all = {
-		sg_specialized_goods
 	}
 
 	trigger = {
@@ -177,7 +168,6 @@ sg_exporting_profits = {
 	is_repeatable = no
 
 	unlocking_subgoals_all = {
-		sg_specialized_goods
 	}
 
 	trigger = {
@@ -197,7 +187,6 @@ sg_raise_exports_value = {
 	is_repeatable = no
 
 	unlocking_subgoals_all = {
-		sg_exporting_profits
 	}
 
 	trigger = {
@@ -217,7 +206,6 @@ sg_lower_production_costs = {
 	is_repeatable = no
 
 	unlocking_subgoals_all = {
-		sg_refining_goods
 	}
 
 	trigger = {

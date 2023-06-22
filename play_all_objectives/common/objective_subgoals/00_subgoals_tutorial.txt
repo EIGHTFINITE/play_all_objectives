@@ -100,7 +100,6 @@ sg_fix_budget_deficit = {
 	is_repeatable = no
 
 	unlocking_subgoals_all = {
-		sg_expand_productive_building
 	}
 
 	trigger = {
@@ -121,7 +120,6 @@ sg_change_production_method = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_all = {
-		sg_expand_basic_building
 	}
 
 	trigger = {
@@ -461,7 +459,6 @@ sg_expand_productive_building = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_all = {
-		sg_change_production_method
 	}
 	
 	trigger = {
@@ -553,7 +550,6 @@ sg_fix_unproductive_building = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_all = {
-		sg_expand_productive_building
 	}
 
 	trigger = {
@@ -676,7 +672,6 @@ sg_promote_ig = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_any = {
-		sg_improve_consumer_goods_access
 	}
 
 	on_start = {
@@ -693,8 +688,6 @@ sg_grow_gdp = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_all = {
-		sg_fix_unproductive_building
-		sg_expand_productive_building
 	}
 	
 	on_start = {
@@ -710,7 +703,6 @@ sg_increase_market_access_by_decree = {
 	category = sgcat_tutorial
 
 	unlocking_subgoals_any = {
-		sg_expand_productive_building
 	}
 
 	trigger = {
@@ -740,7 +732,6 @@ sg_improve_market_access_with_railways = {
 	category = sgcat_tutorial
 
 	unlocking_subgoals_any = {
-		sg_increase_market_access_by_decree
 	}
 
 	trigger = {
@@ -771,7 +762,6 @@ sg_increase_immigration = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_any = {
-		sg_increase_market_access_by_decree
 	}
 
 	trigger = {
@@ -807,7 +797,6 @@ sg_expend_investment_pool = {
 	category = sgcat_tutorial
 
 	unlocking_subgoals_any = {
-		sg_improve_market_access_with_railways
 	}
 
 	trigger = {
@@ -832,7 +821,6 @@ sg_establish_trade_route = {
 	category = sgcat_tutorial
 
 	unlocking_subgoals_any = {
-		sg_expand_productive_building
 	}
 	
 	# low chance to trigger each day unless sg_fix_unproductive_building is complete
@@ -890,7 +878,6 @@ sg_improve_supply_network = {
 	category = sgcat_tutorial
 
 	unlocking_subgoals_any = {
-		sg_establish_trade_route
 	}
 
 	trigger = {
@@ -913,7 +900,6 @@ sg_improve_consumer_goods_access = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_any = {
-		sg_establish_trade_route
 	}
 
 	trigger = {
@@ -972,7 +958,6 @@ sg_make_interest_group_happy = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_all = {
-		sg_promote_ig
 	}
 
 	trigger = {
@@ -1003,7 +988,6 @@ sg_enact_institution_law = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_all = {
-		sg_promote_ig
 	}
 
 	trigger = {
@@ -1097,7 +1081,6 @@ sg_reform_government = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_all = {
-		sg_promote_ig
 	}
 
 	trigger = {
@@ -1117,8 +1100,6 @@ sg_increase_relations = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_any = {
-		sg_enact_institution_law
-		sg_reform_government
 	}
 
 	trigger = {
@@ -1208,7 +1189,6 @@ sg_improve_rank = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_all = {
-		sg_increase_relations
 	}
 
 	trigger = {
@@ -1227,7 +1207,6 @@ sg_prevent_revolution = { #currently code bug displays trigger wrong
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_all = {
-		sg_make_interest_group_happy
 	}
 
 	trigger = {
@@ -1250,7 +1229,6 @@ sg_earn_obligation = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_any = {
-		sg_increase_relations
 	}
 
 	trigger = {
@@ -1275,7 +1253,6 @@ sg_expand_military = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_any = {
-		sg_declare_an_interest
 	}
 	
 	on_start = {
@@ -1291,7 +1268,6 @@ sg_recruit_promote_commander = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_any = {
-		sg_expand_military
 	}
 
 	trigger = {	
@@ -1311,7 +1287,6 @@ sg_mobilize_army = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_any = {
-		sg_recruit_promote_commander
 	}
 
 	trigger = {
@@ -1335,7 +1310,6 @@ sg_send_general_to_front = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_any = {
-		sg_mobilize_army
 	}
 
 	trigger = {	
@@ -1370,7 +1344,6 @@ sg_convoy_raiding = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_any = {
-		sg_recruit_promote_commander
 	}
 
 	trigger = {	
@@ -1424,7 +1397,6 @@ sg_start_diplomatic_play = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_any = {
-		sg_recruit_promote_commander
 	}
 	
 	on_start = {
@@ -1440,7 +1412,6 @@ sg_is_play_target = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_any = {
-		sg_declare_an_interest
 	}
 
 	trigger = {
@@ -1482,7 +1453,6 @@ sg_invest_into_an_institution = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_any = {
-		sg_enact_institution_law
 	}
 	
 	trigger = {
@@ -1602,7 +1572,6 @@ sg_incorporate_state = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_any = {
-		sg_invest_into_an_institution
 	}
 
 	trigger = {
@@ -1625,7 +1594,6 @@ sg_colonize_state = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_all = {
-		sg_declare_an_interest
 	}
 
 	on_start = {
@@ -1641,7 +1609,6 @@ sg_make_peace = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_all = {
-		sg_send_general_to_front
 	}
 
 	trigger = {
@@ -1661,7 +1628,6 @@ sg_reach_end_date = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_all = {
-		sg_make_peace
 	}
 
 	on_start = {
@@ -1697,7 +1663,6 @@ sg_declare_an_interest = {
 	category = sgcat_tutorial
 	
 	unlocking_subgoals_any = {
-		sg_increase_relations
 	}
 
 	trigger = {	

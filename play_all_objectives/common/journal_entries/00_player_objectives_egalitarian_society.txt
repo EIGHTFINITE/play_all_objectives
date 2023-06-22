@@ -1,5 +1,4 @@
 ﻿je_objective_encourage_liberal_ideas = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/egalitarian_society.dds"
 
 	complete = {
@@ -26,7 +25,6 @@
 }
 
 je_liberate_the_slaves = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/egalitarian_society.dds"
 	
 	complete = {
@@ -38,7 +36,6 @@ je_liberate_the_slaves = {
 }
 
 je_pass_laws = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/egalitarian_society.dds"
 	
 	complete = {
@@ -63,7 +60,6 @@ je_pass_laws = {
 }
 
 je_public_services = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/egalitarian_society.dds"
 	
 	complete = {
@@ -112,7 +108,6 @@ je_public_services = {
 }
 
 je_women_and_children = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/egalitarian_society.dds"
 	
 	complete = {
@@ -145,7 +140,6 @@ je_women_and_children = {
 }
 
 je_egalitarian_society = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/egalitarian_society.dds"
 	active_update_frequency = 1
 	

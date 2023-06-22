@@ -34,8 +34,6 @@ sg_pass_laws = {
 	is_repeatable = no
 
 	unlocking_subgoals_any = {
-		sg_encourage_liberal_ideas
-		sg_liberate_the_slaves
 	}
 
 	trigger = {
@@ -54,7 +52,6 @@ sg_public_services = {
 	is_repeatable = no
 
 	unlocking_subgoals_all = {
-		sg_pass_laws
 	}
 
 	trigger = {
@@ -77,7 +74,6 @@ sg_women_and_children = {
 	is_repeatable = no
 
 	unlocking_subgoals_all = {
-		sg_public_services
 	}
 
 	trigger = {
@@ -100,8 +96,6 @@ sg_egalitarian_society = {
 	is_repeatable = no
 
 	unlocking_subgoals_all = {
-		sg_women_and_children
-		sg_liberate_the_slaves 
 	}
 
 	trigger = {

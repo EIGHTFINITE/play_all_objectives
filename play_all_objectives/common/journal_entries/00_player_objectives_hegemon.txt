@@ -1,5 +1,4 @@
 ﻿je_colonization_laws = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/hegemon.dds"
 
 	complete = {
@@ -22,7 +21,6 @@
 }
 
 je_african_colonies = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/hegemon.dds"
 
 	complete = {
@@ -47,7 +45,6 @@ je_african_colonies = {
 }
 
 je_expand_navy_and_army = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/hegemon.dds"
 
 	complete = {
@@ -65,7 +62,6 @@ je_expand_navy_and_army = {
 }
 
 je_form_alliance = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/hegemon.dds"
 
 	complete = {
@@ -88,7 +84,6 @@ je_form_alliance = {
 }
 
 je_take_subject = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/hegemon.dds"
 
 	complete = {
@@ -124,7 +119,6 @@ je_take_subject = {
 }
 
 je_increase_technology = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/hegemon.dds"
 
 	complete = {
@@ -141,7 +135,6 @@ je_increase_technology = {
 }
 
 je_greatest_power = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/hegemon.dds"
 
 	complete = {
@@ -156,7 +149,6 @@ je_greatest_power = {
 }
 
 je_greater_power = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/hegemon.dds"
 
 	complete = {
@@ -171,7 +163,6 @@ je_greater_power = {
 }
 
 je_great_power = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/hegemon.dds"
 
 	complete = {
@@ -186,7 +177,6 @@ je_great_power = {
 }
 
 je_unrecognized_power = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/hegemon.dds"
 
 	complete = {
@@ -201,7 +191,6 @@ je_unrecognized_power = {
 }
 
 je_the_hegemon = {
-	should_be_pinned_by_default = yes
 	icon = "gfx/interface/icons/objectives/hegemon.dds"
 	active_update_frequency = 1
 
