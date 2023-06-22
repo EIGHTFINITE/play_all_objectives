@@ -1,0 +1,12 @@
+{
+  "name" : "play_all_objectives",
+  "id" : "",
+  "version" : "1.0",
+  "supported_game_version" : "1.3.*",
+  "short_description" : "",
+  "tags" : ["Balance","Events","Fixes","Gameplay","Journal Entries"],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}
