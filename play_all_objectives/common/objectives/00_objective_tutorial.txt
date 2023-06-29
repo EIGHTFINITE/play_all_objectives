@@ -72,6 +72,8 @@
 		sg_egalitarian_society
 	}
 	
+	final_subgoal = sg_reach_end_date
+	
 	on_start = {
 		start_tutorial_lesson = { tutorial_lesson = lesson_basics }
 	}
