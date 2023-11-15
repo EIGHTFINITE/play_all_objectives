@@ -6,6 +6,7 @@
 	recommended_game_rules = { lenient_ai_behavior low_ai_aggression }
 
 	objective_subgoals = {
+		# Tutorial
 		sg_expand_basic_building
 		sg_fix_budget_deficit
 		sg_establish_trade_route
@@ -44,6 +45,42 @@
 		sg_research_technology
 		sg_create_formation
 		sg_establish_company
+
+		# Economic Dominance
+		sg_expand_goods_production #rework
+
+		sg_refining_goods #rework, make X number in single, state loc for status
+		sg_specialized_goods #rework, make X number in single state, state loc for status
+		sg_expanding_the_market #rework, add subjects and customs union
+
+		sg_specialized_inputs #missing: LOC
+		sg_exporting_profits #missing: LOC
+		sg_utilizing_our_strength #missing: LOC
+		sg_raise_exports_value #missing: LOC
+		sg_lower_production_costs #missing: LOC
+
+		sg_strong_market #Keep
+
+		# Hegemon
+		sg_colonization_laws
+		sg_african_colonies
+		sg_expand_navy_and_army
+		sg_form_alliance
+		sg_take_subject
+		sg_increase_technology
+		sg_greatest_power
+		sg_greater_power
+		sg_great_power
+		sg_unrecognized_power
+		sg_the_hegemon
+
+		# Egalitarian Society
+		sg_encourage_liberal_ideas
+		sg_pass_laws
+		sg_public_services
+		sg_liberate_the_slaves
+		sg_women_and_children
+		sg_egalitarian_society
 	}
 	
 	final_subgoal = sg_improve_rank

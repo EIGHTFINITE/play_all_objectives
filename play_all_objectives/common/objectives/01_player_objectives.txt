@@ -5,6 +5,47 @@
 	recommended_tags = { USA GBR TUR BRZ }
 	
 	objective_subgoals = {
+		# Tutorial
+		sg_expand_basic_building
+		sg_fix_budget_deficit
+		sg_establish_trade_route
+		sg_change_production_method
+		sg_expand_productive_building
+		sg_increase_market_access_by_decree
+		sg_improve_market_access_with_railways
+		sg_increase_immigration
+		sg_fix_unproductive_building
+		sg_grow_gdp
+		sg_promote_ig
+		sg_expend_investment_pool
+		sg_improve_supply_network
+		sg_improve_consumer_goods_access
+		sg_make_interest_group_happy
+		sg_enact_institution_law
+		sg_invest_into_an_institution
+		sg_reform_government
+		sg_increase_relations
+		sg_improve_rank
+		sg_prevent_revolution
+		sg_earn_obligation
+		sg_expand_military
+		sg_recruit_promote_commander
+		sg_mobilize_army
+		sg_send_general_to_front
+		sg_convoy_raiding 
+		sg_recover_from_default
+		sg_start_diplomatic_play
+		sg_is_play_target
+		sg_capacity_deficit
+		sg_incorporate_state
+		sg_declare_an_interest
+		sg_make_peace
+		sg_colonize_state
+		sg_research_technology
+		sg_create_formation
+		sg_establish_company
+
+		# Economic Dominance
 		sg_expand_goods_production #rework
 
 		sg_refining_goods #rework, make X number in single, state loc for status
@@ -18,6 +59,27 @@
 		sg_lower_production_costs #missing: LOC
 
 		sg_strong_market #Keep
+
+		# Hegemon
+		sg_colonization_laws
+		sg_african_colonies
+		sg_expand_navy_and_army
+		sg_form_alliance
+		sg_take_subject
+		sg_increase_technology
+		sg_greatest_power
+		sg_greater_power
+		sg_great_power
+		sg_unrecognized_power
+		sg_the_hegemon
+
+		# Egalitarian Society
+		sg_encourage_liberal_ideas
+		sg_pass_laws
+		sg_public_services
+		sg_liberate_the_slaves
+		sg_women_and_children
+		sg_egalitarian_society
 	}
 	
 	final_subgoal = sg_strong_market
@@ -34,6 +96,62 @@ objective_hegemon = {
 	recommended_tags = { PRU SPA JAP EGY }	
 	
 	objective_subgoals = {
+		# Tutorial
+		sg_expand_basic_building
+		sg_fix_budget_deficit
+		sg_establish_trade_route
+		sg_change_production_method
+		sg_expand_productive_building
+		sg_increase_market_access_by_decree
+		sg_improve_market_access_with_railways
+		sg_increase_immigration
+		sg_fix_unproductive_building
+		sg_grow_gdp
+		sg_promote_ig
+		sg_expend_investment_pool
+		sg_improve_supply_network
+		sg_improve_consumer_goods_access
+		sg_make_interest_group_happy
+		sg_enact_institution_law
+		sg_invest_into_an_institution
+		sg_reform_government
+		sg_increase_relations
+		sg_improve_rank
+		sg_prevent_revolution
+		sg_earn_obligation
+		sg_expand_military
+		sg_recruit_promote_commander
+		sg_mobilize_army
+		sg_send_general_to_front
+		sg_convoy_raiding 
+		sg_recover_from_default
+		sg_start_diplomatic_play
+		sg_is_play_target
+		sg_capacity_deficit
+		sg_incorporate_state
+		sg_declare_an_interest
+		sg_make_peace
+		sg_colonize_state
+		sg_research_technology
+		sg_create_formation
+		sg_establish_company
+
+		# Economic Dominance
+		sg_expand_goods_production #rework
+
+		sg_refining_goods #rework, make X number in single, state loc for status
+		sg_specialized_goods #rework, make X number in single state, state loc for status
+		sg_expanding_the_market #rework, add subjects and customs union
+
+		sg_specialized_inputs #missing: LOC
+		sg_exporting_profits #missing: LOC
+		sg_utilizing_our_strength #missing: LOC
+		sg_raise_exports_value #missing: LOC
+		sg_lower_production_costs #missing: LOC
+
+		sg_strong_market #Keep
+
+		# Hegemon
 		sg_colonization_laws
 		sg_african_colonies
 		sg_expand_navy_and_army
@@ -45,6 +163,14 @@ objective_hegemon = {
 		sg_great_power
 		sg_unrecognized_power
 		sg_the_hegemon
+
+		# Egalitarian Society
+		sg_encourage_liberal_ideas
+		sg_pass_laws
+		sg_public_services
+		sg_liberate_the_slaves
+		sg_women_and_children
+		sg_egalitarian_society
 	}
 	
 	final_subgoal = sg_the_hegemon
@@ -61,6 +187,75 @@ objective_egalitarian_society = {
 	recommended_tags = { FRA RUS CHI MEX }	
 	
 	objective_subgoals = {
+		# Tutorial
+		sg_expand_basic_building
+		sg_fix_budget_deficit
+		sg_establish_trade_route
+		sg_change_production_method
+		sg_expand_productive_building
+		sg_increase_market_access_by_decree
+		sg_improve_market_access_with_railways
+		sg_increase_immigration
+		sg_fix_unproductive_building
+		sg_grow_gdp
+		sg_promote_ig
+		sg_expend_investment_pool
+		sg_improve_supply_network
+		sg_improve_consumer_goods_access
+		sg_make_interest_group_happy
+		sg_enact_institution_law
+		sg_invest_into_an_institution
+		sg_reform_government
+		sg_increase_relations
+		sg_improve_rank
+		sg_prevent_revolution
+		sg_earn_obligation
+		sg_expand_military
+		sg_recruit_promote_commander
+		sg_mobilize_army
+		sg_send_general_to_front
+		sg_convoy_raiding 
+		sg_recover_from_default
+		sg_start_diplomatic_play
+		sg_is_play_target
+		sg_capacity_deficit
+		sg_incorporate_state
+		sg_declare_an_interest
+		sg_make_peace
+		sg_colonize_state
+		sg_research_technology
+		sg_create_formation
+		sg_establish_company
+
+		# Economic Dominance
+		sg_expand_goods_production #rework
+
+		sg_refining_goods #rework, make X number in single, state loc for status
+		sg_specialized_goods #rework, make X number in single state, state loc for status
+		sg_expanding_the_market #rework, add subjects and customs union
+
+		sg_specialized_inputs #missing: LOC
+		sg_exporting_profits #missing: LOC
+		sg_utilizing_our_strength #missing: LOC
+		sg_raise_exports_value #missing: LOC
+		sg_lower_production_costs #missing: LOC
+
+		sg_strong_market #Keep
+
+		# Hegemon
+		sg_colonization_laws
+		sg_african_colonies
+		sg_expand_navy_and_army
+		sg_form_alliance
+		sg_take_subject
+		sg_increase_technology
+		sg_greatest_power
+		sg_greater_power
+		sg_great_power
+		sg_unrecognized_power
+		sg_the_hegemon
+
+		# Egalitarian Society
 		sg_encourage_liberal_ideas
 		sg_pass_laws
 		sg_public_services
