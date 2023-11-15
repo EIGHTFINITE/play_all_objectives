@@ -2,7 +2,7 @@
 	background = "gfx/interface/icons/objectives/learn.dds"
 	icon = "gfx/interface/icons/event_icons/tutorial_icon.dds"
 	
-	recommended_tags = { SWE BEL CHL PER }	
+	recommended_tags = { SWE BEL CLM PER }	
 	recommended_game_rules = { lenient_ai_behavior low_ai_aggression }
 
 	objective_subgoals = {
@@ -40,41 +40,16 @@
 		sg_incorporate_state
 		sg_declare_an_interest
 		sg_make_peace
-		sg_reach_end_date
 		sg_colonize_state
 		sg_research_technology
-		sg_expand_goods_production
-		sg_refining_goods
-		sg_specialized_goods
-		sg_expanding_the_market
-		sg_specialized_inputs
-		sg_exporting_profits
-		sg_utilizing_our_strength
-		sg_raise_exports_value
-		sg_lower_production_costs
-		sg_strong_market
-		sg_colonization_laws
-		sg_african_colonies
-		sg_expand_navy_and_army
-		sg_form_alliance
-		sg_take_subject
-		sg_increase_technology
-		sg_greatest_power
-		sg_greater_power
-		sg_great_power
-		sg_unrecognized_power
-		sg_the_hegemon
-		sg_encourage_liberal_ideas
-		sg_pass_laws
-		sg_public_services
-		sg_liberate_the_slaves
-		sg_women_and_children
-		sg_egalitarian_society
+		sg_create_formation
+		sg_establish_company
 	}
 	
-	final_subgoal = sg_reach_end_date
+	final_subgoal = sg_improve_rank
 	
 	on_start = {
+		start_research_random_technology = yes
 		start_tutorial_lesson = { tutorial_lesson = lesson_basics }
 	}
 }
