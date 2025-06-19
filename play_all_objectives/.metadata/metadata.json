@@ -2,7 +2,7 @@
   "name" : "play_all_objectives",
   "id" : "",
   "version" : "1.0",
-  "supported_game_version" : "1.8.*",
+  "supported_game_version" : "1.9.*",
   "short_description" : "",
   "tags" : ["Balance","Events","Fixes","Gameplay","Journal Entries"],
   "relationships" : [],
